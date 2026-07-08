@@ -1,0 +1,32 @@
+# Build outputs
+obj/
+*.o
+*.d
+*.elf
+*.hex
+*.lst
+*.map
+*.bin
+
+# MounRiver Studio IDE
+.mrs/
+.settings/
+.cproject
+.project
+.template
+*.launch
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local config with secrets
+python/up_settings.json
+
+# OS
+.DS_Store
+Thumbs.db
